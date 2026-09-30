@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: black;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px double black;
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+h1 {
+    color: #6a4c93;
+}
+
+button {
+    background-color: #6a4c93;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #503675;
+}
+
+#message {
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px gray;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* MAIN */
+
+main {
+    margin: 20px 30px;
+}
+
+/* SECTIONS */
+
+.media-section {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 25px 20px 30px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    box-shadow: 5px 5px 0px black;
+}
+
+/* SECTION TITLE */
+
+.media-section h2 {
+    background-color: white;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    width: 340px;
+    padding: 10px 15px;
+    margin: 0 0 20px;
+
+    border: 2px solid black;
+    border-left: 8px solid black;
+    border-radius: 3px;
+}
+
+/* PHOTOS */
+
+.photos {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px 5px;
+}
+
+.photos img {
+    width: 195px;
+    height: 195px;
+    object-fit: cover;
+
+    border: 4px double black;
+    border-radius: 15px;
+
+    margin-right: 10px;
+    vertical-align: middle;
+
+    padding: 4px;
+}
+
+/* AUDIO */
+
+.audios {
+    text-align: center;
+    padding: 10px;
+}
+
+.audios audio {
+    width: 210px;
+    margin: 10px 8px;
+    vertical-align: middle;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
